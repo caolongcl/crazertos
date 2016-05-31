@@ -1,0 +1,167 @@
+Dependencies for Project 'rtos', Target 'craze': (DO NOT MODIFY !)
+F (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+F (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+F (.\User\stm32f10x.s)(0x5736D06C)(--cpu Cortex-M3 -g --apcs=interwork -I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 517" --pd "STM32F10X_MD SETA 1"--list .\listings\stm32f10x.lst --xref -o .\objects\stm32f10x.o --depend .\objects\stm32f10x.d)
+F (.\FreeRTOS\Source\list.c)(0x5620F7DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+F (.\FreeRTOS\Source\queue.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\queue.h)(0x5620F7DA)
+F (.\FreeRTOS\Source\tasks.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\timers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\StackMacros.h)(0x5620F7DA)
+F (.\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\heap_2.o --omf_browse .\objects\heap_2.crf --depend .\objects\heap_2.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+F (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c)(0x5736E76F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+F (.\User\driver\src\led.c)(0x57370F13)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\User\driver\inc\led.h)(0x57370D6A)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+F (.\User\driver\src\uart.c)(0x57371246)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\User\driver\inc\uart.h)(0x5736D06E)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (.\User\interupt.h)(0x5735FA56)
+F (.\User\driver\src\motor.c)(0x57375B02)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (.\User\driver\inc\motor.h)(0x57375426)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+F (.\User\driver\src\battery.c)(0x5737DE15)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\battery.o --omf_browse .\objects\battery.crf --depend .\objects\battery.d)
+I (.\User\driver\inc\battery.h)(0x5737DE0F)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+F (.\User\main.c)(0x57384D94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (User\board.h)(0x5737DE57)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\driver\inc\led.h)(0x57370D6A)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\User\driver\inc\uart.h)(0x5736D06E)
+I (.\User\driver\inc\motor.h)(0x57375426)
+I (.\User\driver\inc\battery.h)(0x5737DE0F)
+I (User\user_task.h)(0x573850AA)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+F (.\User\interupt.c)(0x5735F6E5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\interupt_1.o --omf_browse .\objects\interupt_1.crf --depend .\objects\interupt_1.d)
+I (User\interupt.h)(0x5735FA56)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+F (.\User\board.c)(0x57375028)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (User\board.h)(0x5737DE57)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\driver\inc\led.h)(0x57370D6A)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\User\driver\inc\uart.h)(0x5736D06E)
+I (.\User\driver\inc\motor.h)(0x57375426)
+I (.\User\driver\inc\battery.h)(0x5737DE0F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (.\User\user_task.c)(0x573850B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I..\rtos -I.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I.\User\driver\inc-I D:\crazypony\rtos\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\user_task.o --omf_browse .\objects\user_task.crf --depend .\objects\user_task.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5620F7DA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\User\FreeRTOSConfig.h)(0x573850A7)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\portable.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x573850B1)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5620F7DA)
+I (.\FreeRTOS\Source\include\task.h)(0x56228176)
+I (.\FreeRTOS\Source\include\list.h)(0x5620F7DA)
+I (User\user_task.h)(0x573850AA)
+I (.\User\driver\inc\led.h)(0x57370D6A)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5735ECC9)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (.\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\driver\inc\uart.h)(0x5736D06E)
+I (User\board.h)(0x5737DE57)
+I (.\User\driver\inc\motor.h)(0x57375426)
+I (.\User\driver\inc\battery.h)(0x5737DE0F)

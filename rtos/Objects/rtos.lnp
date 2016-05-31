@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\objects\core_cm3.o"
+".\objects\system_stm32f10x.o"
+".\objects\stm32f10x.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\tasks.o"
+".\objects\heap_2.o"
+".\objects\port.o"
+".\objects\led.o"
+".\objects\uart.o"
+".\objects\motor.o"
+".\objects\battery.o"
+".\objects\main.o"
+".\objects\interupt_1.o"
+".\objects\board.o"
+".\objects\user_task.o"
+--strict --scatter ".\Objects\rtos.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rtos.map" -o .\Objects\rtos.axf
